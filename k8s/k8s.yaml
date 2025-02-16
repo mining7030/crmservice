@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: sa/django:latest
+        image: crmservice/b2b:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 8800
